@@ -18,10 +18,10 @@ class CalculadoraSimple {
                 System.out.println("Operaciones trigonométricas");
                 System.out.println("Ingrese el ángulo: ");
                 num1=lr.nextDouble();
-                double b = Math.toRadians(num1);
-                System.out.println("Seno: " + Math.sin(b));
-                System.out.println("Coseno: " + Math.cos(b));
-                System.out.println("Tangente: " + Math.tan(b));
+                double angle = Math.toRadians(num1);
+                System.out.println("Seno: " + Math.sin(angle));
+                System.out.println("Coseno: " + Math.cos(angle));
+                System.out.println("Tangente: " + Math.tan(angle));
                 break;
             case '2':
                 System.out.println("Operaciones trigonométricas inversas");
