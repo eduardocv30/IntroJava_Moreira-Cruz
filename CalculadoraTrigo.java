@@ -50,7 +50,6 @@ class CalculadoraSimple {
                 System.out.println("Cosh: "+cosh);
                 System.out.println("Sinh: "+sinh);
                 System.out.println("Tanh: "+tanh);
-                System.out.println("Resultado: "+(num1));
                 break;
 
         }
