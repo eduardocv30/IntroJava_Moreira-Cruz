@@ -31,8 +31,8 @@ class CalculadoraSimple {
                 double angulo1 = Math.toDegrees(Arcoseno);
                 System.out.println("Arcoseno: "+(angulo1));
                 double Arcocoseno = Math.acos(num1);
-                double angulo = Math.toDegrees(Arcocoseno);
-                System.out.println("Arcocoseno: "+(angulo));
+                double angulo2 = Math.toDegrees(Arcocoseno);
+                System.out.println("Arcocoseno: "+(angulo2));
                 double Arcotangente = Math.atan(num1);
                 double angulo3 = Math.toDegrees(Arcotangente);
                 System.out.println("Arcotangente: "+(angulo3));
