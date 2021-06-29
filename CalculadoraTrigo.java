@@ -25,7 +25,7 @@ class CalculadoraSimple {
                 break;
             case '2':
                 System.out.println("Operaciones trigonométricas inversas");
-                System.out.println("Ingrese el ángulo: ");
+                System.out.println("Ingrese el valor: ");
                 num1=lr.nextDouble();
                 double Arcoseno = Math.asin(num1);
                 double angulo2 = Math.toDegrees(Arcoseno);
