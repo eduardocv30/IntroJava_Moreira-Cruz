@@ -28,8 +28,8 @@ class CalculadoraSimple {
                 System.out.println("Ingrese el valor: ");
                 num1=lr.nextDouble();
                 double Arcoseno = Math.asin(num1);
-                double angulo2 = Math.toDegrees(Arcoseno);
-                System.out.println("Arcoseno: "+(angulo2));
+                double angulo1 = Math.toDegrees(Arcoseno);
+                System.out.println("Arcoseno: "+(angulo1));
                 double Arcocoseno = Math.acos(num1);
                 double angulo = Math.toDegrees(Arcocoseno);
                 System.out.println("Arcocoseno: "+(angulo));
